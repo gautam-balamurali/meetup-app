@@ -71,9 +71,9 @@ const EventDetails = ({ event }) => {
       <p>Dress Code: {additionalInformation.dressCode}</p>
       <p>Age Restrictions: {additionalInformation.ageRestrictions}</p>
 
-      {/* {!isRSVPed && eventStartTime > new Date() && (
+      {!isRSVPed && eventStartTime > new Date() && (
         <button onClick={handleRSVP}>RSVP</button>
-      )} */}
+      )}
 
       <button onClick={handleRSVP}>RSVP</button>
 
