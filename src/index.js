@@ -4,12 +4,15 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
+import { MeetupProvider } from "./core/contexts/MeetupContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <MeetupProvider>
+        <App />
+      </MeetupProvider>
     </BrowserRouter>
   </React.StrictMode>
 );

@@ -24,7 +24,6 @@
   /* min-height: 100vh; */
   background-color: var(--secondary-color);
   color: var(--dark-shade-color);
-  font-family: "Shantell Sans", cursive;
 }
 
 .section {
@@ -70,5 +69,4 @@ button,
 label,
 select {
   cursor: pointer;
-  font-family: "Shantell Sans", cursive;
 }

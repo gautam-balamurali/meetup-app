@@ -1,0 +1,71 @@
+.meetup-landing-page {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.landing-page-header-contents {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.landing-page-header-contents h2 {
+  text-transform: capitalize;
+  letter-spacing: 0.1em;
+  font-size: 2.5rem;
+}
+
+.event-selector {
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  height: 2rem;
+  padding: 0.2rem;
+}
+
+.landing-page-card-contents {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.meetup-card {
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  width: 25rem;
+  position: relative;
+}
+
+.event-type {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px 10px;
+  background-color: var(--secondary-color);
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.meetup-card img {
+  height: 25rem;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.meetup-card p {
+  color: var(--light-shade-color);
+  font-size: 1.5rem;
+}
+
+.meetup-card h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
