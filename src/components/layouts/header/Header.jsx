@@ -5,14 +5,16 @@ import { FaSearch } from "react-icons/fa";
 import "./Header.css";
 import meetupLogo from "./../../../assets/meetup.svg";
 import { useMeetup } from "../../../core/contexts/MeetupContext";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
   const { handleSearchInputChange, searchTerm } = useMeetup();
+  const navigate = useNavigate();
 
   return (
     <header className="header">
       <div className="header-contents">
-        <h1>
+        <h1 onClick={() => navigate("/")}>
           <img src={meetupLogo} alt="logo" />
         </h1>
         <div className="search-bar">

@@ -1,4 +1,17 @@
-# Getting Started with Create React App
+# 🤝 Meetup 🤝
+
+- A meetup app with basic functionalities. It is compatible only in desktop view.
+
+## Tech Stack
+
+- React
+- Netlify
+
+## Preview
+
+- [View Live](https://meetup-app-gautam-balamurali.netlify.app/)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
