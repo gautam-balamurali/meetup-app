@@ -5,12 +5,12 @@ import { data } from "../../config/app-config/AppConfig";
 export const MeetupContext = createContext();
 
 export const MeetupProvider = ({ children }) => {
-  const [eventTypeFilter, setEventTypeFilter] = useState("Both");
+  const [eventTypeFilter, setEventTypeFilter] = useState("");
   const [searchTerm, setSearchTerm] = useState("");
 
   // Filter events based on event type
   const filteredEvents = data.meetups.filter((event) => {
-    if (eventTypeFilter === "Both") {
+    if (eventTypeFilter === "Both" || eventTypeFilter === "") {
       return true;
     }
     return event.eventType === eventTypeFilter;

@@ -21,7 +21,7 @@ const Home = () => {
           value={eventTypeFilter}
           onChange={handleEventTypeChange}
         >
-          <option selected="true" disabled="disabled">
+          <option value="" selected="true" disabled="disabled">
             Select Event Type
           </option>
           <option value="Offline">Offline</option>
